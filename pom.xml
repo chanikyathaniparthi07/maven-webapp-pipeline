@@ -4,9 +4,18 @@
   <groupId>com.javatpoint</groupId>
   <artifactId>maven-webapp-Jenkins</artifactId>
   <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-RELEASE</version>
   <name>maven-webapp-Jenkins Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
+  
+  <properties>
+  <sonar.host.url>http://18.208.128.108:9090/</sonar.host.url>
+  <sonar.login>2d9e47935120447d9b42f2c58e1861270a28b872</sonar.login>
+  </properties>
+
+  
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
